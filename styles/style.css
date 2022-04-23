@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  height: 100vh;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.summary-container {
+  height: auto;
+  width: 34rem;
+  background-color: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.summary-container .container {
+  padding: 3rem;
+}
+
+.summary-container .container .header-primary {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.summary-container .container .text {
+  text-align: center;
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  color: #7280a7;
+}
+
+.summary-container .img {
+  width: 100%;
+}
+
+.summary-container .plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 11px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.4rem;
+  margin: 2.2rem 0;
+}
+
+.summary-container .plans .tag strong {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.summary-container .plans .tag .price {
+  color: #7280a7;
+  font-size: 1.4rem;
+}
+
+.summary-container .plans .change {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.summary-container .plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.2rem;
+}
+
+.summary-container .btn-block {
+  text-align: center;
+}
+
+.summary-container .btn-block .process-btn {
+  padding: 1.2rem;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1.6rem;
+  background-color: #3829e0;
+  color: #f5f7ff;
+}
+
+.summary-container .btn-block .cancel-btn {
+  border: none;
+  background-color: #fff;
+  color: #7280a7;
+}
+/*# sourceMappingURL=style.css.map */

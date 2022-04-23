@@ -1,0 +1,100 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html { 
+      font-size: 62.5%;
+    }
+
+.main-container {
+  height: 100vh;
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.summary-container {
+  height: auto;
+  width: 34rem;
+  background-color: #fff;
+  border-radius: 11px;
+  overflow: hidden;
+
+  .container{
+    padding: 3rem;
+
+    .header-primary {
+      text-align: center;
+      font-size: 2rem;
+    }
+    .text{
+      text-align: center;
+      font-size: 1.4rem;
+      padding-top: 2rem;
+      color: hsl(224, 23%, 55%);
+    }
+  }
+  .img{
+    width: 100%;
+  }
+
+  .plans {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 11px;
+    justify-content: space-between;
+    padding: 1.4rem;
+    margin: 2.2rem 0;
+
+    .tag {
+
+      strong{
+        font-size: 1.2rem;
+        font-weight: 900;
+      }
+      .price {
+        color:hsl(224, 23%, 55%); 
+        font-size: 1.4rem;
+      }
+    }
+
+    .change{
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+
+  .plan {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .btn-block {
+    text-align: center;
+
+    .process-btn {
+      padding: 1.2rem;
+      display: block;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      margin-bottom: 1.6rem;
+      background-color: hsl(245, 75%, 52%);
+      color: hsl(225, 100%, 98%);
+    }
+
+    .cancel-btn {
+      border: none;
+      background-color: #fff;
+      color: hsl(224, 23%, 55%);
+    }
+  }
+}
